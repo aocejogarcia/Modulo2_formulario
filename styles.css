@@ -1,0 +1,49 @@
+/*
+* {
+    color: blue; /* Cambia el color del texto */ /*
+    font-size: 14px; /* Cambia el tamaño de la fuente */ /*
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+*/
+
+body {
+    margin: 0;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+button {
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid #005a9c;
+    background: #0078d4;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #005a9c;
+}
+
+button:focus-visible {
+    outline: 3px solid #ffb81c;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 4px rgba(0, 120, 212, 0.25);
+}
+
+.form-submit-message {
+    margin-top: 1rem;
+    padding: 0.85rem 1rem;
+    border-radius: 0.5rem;
+    background: #e6f4ff;
+    color: #003a6b;
+    border: 1px solid #b3e0ff;
+}
+
+@media (max-width: 640px) {
+    button { width: 100%; }
+}
